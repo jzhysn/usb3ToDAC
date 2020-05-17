@@ -1,0 +1,3 @@
+LIBRARY	"allInOne"
+EXPORTS
+GetUSBDevice @1

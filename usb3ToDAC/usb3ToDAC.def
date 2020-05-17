@@ -1,0 +1,8 @@
+LIBRARY	"usb3ToDAC"
+EXPORTS
+GetUSBDevice @1
+GetIn @2
+GetIn_no_transposition @3
+XferTestData @4
+xFerToGPIFTest @5
+getEndPt @6

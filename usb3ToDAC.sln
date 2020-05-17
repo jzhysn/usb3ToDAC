@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testdll", "..\testdll\testdll\testdll.vcxproj", "{63E822ED-79F4-481E-9E34-D759D158906D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usb3ToDAC", "usb3ToDAC\usb3ToDAC.vcxproj", "{DDF109CD-0338-459A-800C-7D1B078EC9F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XferData", "XferData\XferData.vcxproj", "{9E50AF5D-9128-4966-BFDE-30F36FAF9930}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "allInOne", "allInOne\allInOne.vcxproj", "{1FE41D12-E150-4ED6-AF2E-93165A94DAE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32_study", "win32_study\win32_study.vcxproj", "{F6B4CF66-596F-4827-993D-A9A24E462035}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thread_demo", "thread_demo\thread_demo.vcxproj", "{ED25ADE0-D084-48D2-B487-E10AF437C761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63E822ED-79F4-481E-9E34-D759D158906D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63E822ED-79F4-481E-9E34-D759D158906D}.Debug|Win32.Build.0 = Debug|Win32
+		{63E822ED-79F4-481E-9E34-D759D158906D}.Release|Win32.ActiveCfg = Release|Win32
+		{63E822ED-79F4-481E-9E34-D759D158906D}.Release|Win32.Build.0 = Release|Win32
+		{DDF109CD-0338-459A-800C-7D1B078EC9F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DDF109CD-0338-459A-800C-7D1B078EC9F0}.Debug|Win32.Build.0 = Debug|Win32
+		{DDF109CD-0338-459A-800C-7D1B078EC9F0}.Release|Win32.ActiveCfg = Release|Win32
+		{DDF109CD-0338-459A-800C-7D1B078EC9F0}.Release|Win32.Build.0 = Release|Win32
+		{9E50AF5D-9128-4966-BFDE-30F36FAF9930}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E50AF5D-9128-4966-BFDE-30F36FAF9930}.Debug|Win32.Build.0 = Debug|Win32
+		{9E50AF5D-9128-4966-BFDE-30F36FAF9930}.Release|Win32.ActiveCfg = Release|Win32
+		{9E50AF5D-9128-4966-BFDE-30F36FAF9930}.Release|Win32.Build.0 = Release|Win32
+		{1FE41D12-E150-4ED6-AF2E-93165A94DAE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FE41D12-E150-4ED6-AF2E-93165A94DAE0}.Debug|Win32.Build.0 = Debug|Win32
+		{1FE41D12-E150-4ED6-AF2E-93165A94DAE0}.Release|Win32.ActiveCfg = Release|Win32
+		{1FE41D12-E150-4ED6-AF2E-93165A94DAE0}.Release|Win32.Build.0 = Release|Win32
+		{F6B4CF66-596F-4827-993D-A9A24E462035}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6B4CF66-596F-4827-993D-A9A24E462035}.Debug|Win32.Build.0 = Debug|Win32
+		{F6B4CF66-596F-4827-993D-A9A24E462035}.Release|Win32.ActiveCfg = Release|Win32
+		{F6B4CF66-596F-4827-993D-A9A24E462035}.Release|Win32.Build.0 = Release|Win32
+		{ED25ADE0-D084-48D2-B487-E10AF437C761}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED25ADE0-D084-48D2-B487-E10AF437C761}.Debug|Win32.Build.0 = Debug|Win32
+		{ED25ADE0-D084-48D2-B487-E10AF437C761}.Release|Win32.ActiveCfg = Release|Win32
+		{ED25ADE0-D084-48D2-B487-E10AF437C761}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7858DD1D-3A9B-420F-B8C4-EBBD8F7A7423}
+	EndGlobalSection
+EndGlobal

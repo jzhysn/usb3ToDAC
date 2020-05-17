@@ -1,0 +1,3 @@
+LIBRARY	"XferData"
+EXPORTS
+getChannels @1
